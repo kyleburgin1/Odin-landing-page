@@ -10,7 +10,7 @@
   padding: 0 72px;
   color: white;
   background-color: #1F2937;
-  height: 400px;
+  height: 72px;
   justify-content: space-around;
 }
 
@@ -27,3 +27,24 @@
     display: flex;
     background-color: #1F2937;
 }
+
+.hero{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    height: 328px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-text-main{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.tree{
+    width: 25%;
+    height: auto;
+}
+
