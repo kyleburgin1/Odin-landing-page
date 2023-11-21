@@ -1,14 +1,29 @@
-.header{
-   justify-content: flex-end;
-   align-items: center;
-   padding: 0 16px;
-   height: 72px;
-   display: flex;
-   color: white;
-   background-color: #1F2937;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.header.left, .header{
+.header{
+  display: flex;
+  align-items:flex-start;
+  padding: 0 72px;
+  color: white;
+  background-color: #1F2937;
+  height: 400px;
+  justify-content: space-around;
+}
+
+.links{
     display: flex;
-    justify-content: flex-start;
+    gap: 16px;
+}
+
+.header-logo{
+    font-weight: bold;
+}
+
+.title{
+    display: flex;
+    background-color: #1F2937;
 }
