@@ -28,8 +28,9 @@
     background-color: #1F2937;
 }
 
-.hero{
+.hero-background{
     display: flex;
+    flex-wrap: wrap;
     background-color: #1F2937;
     color: white;
     height: 328px;
@@ -43,8 +44,30 @@
     font-weight: bolder;
 }
 
+.hero-text{
+    flex: 1;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.button{
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+}
+
 .tree{
-    width: 25%;
+    width: 500px;
     height: auto;
 }
+
+
+
+
+
+
 
