@@ -65,6 +65,37 @@
     height: auto;
 }
 
+.info-title{
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    font-size: 36px;
+    font-weight: bolder;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.info{
+    display: flex;
+    gap: 32px;
+}
+
+.square{
+    height: 100px;
+    width: 100px;
+    border: 8px;
+    border: solid 3px;
+    border-radius: 8px;
+    border-color: #3882f6;
+}
+
+
 
 
 
