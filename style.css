@@ -47,6 +47,7 @@
 
 .hero-text{
     flex: 1;
+    padding: 12px;
     font-size: 18px;
     font-weight: lighter;
 }
@@ -79,6 +80,7 @@
     justify-content: center;
     gap: 52px;
     text-align: end;
+    padding-bottom: 64px;
 }
 
 .info{
@@ -103,10 +105,37 @@
     flex-wrap: wrap;
 }
 
-.quote-container{
-    height: 400px;
+.quote-background{
+    padding-top: 64px;
+    height: 324px;
+    padding-left: 300px;
+    padding-right: 300px;
     background-color: #e5e7eb;
 }
+
+.quote-container{
+    display: flex;
+    height: 120px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.name-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote-body{
+    font-size: 24px;
+    color: #1F2937;
+}
+
+.quote-name{
+    color: #1F2937;
+}
+
 
 
 
