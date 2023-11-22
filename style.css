@@ -56,6 +56,7 @@
     border: none;
     border-radius: 8px;
     padding: 6px;
+    width: 100px;
     padding-left: 10px;
     padding-right: 10px;
     color: #e5e7eb;
@@ -135,6 +136,74 @@
 .quote-name{
     color: #1F2937;
 }
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 268px;
+}
+
+.call-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 128px;
+    width: 800px;
+    border-radius: 8px;
+}
+.call-text{
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-title{
+    font-weight: bolder;
+}
+
+.call-body{
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.call-button{
+    border: 3px solid;
+    border-radius: 8px;
+    padding: 6px;
+    height: 32px;
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+}
+
+.call-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #1F2937;
+}
+
+.footer-text{
+    color: #e5e7eb;
+    font-size: 12px;
+}
+
+
+
+
 
 
 
